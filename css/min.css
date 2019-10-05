@@ -1,0 +1,98 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+background: url('../img/nav.jpg');
+max-width:100%;height:auto;
+}
+
+.header{
+max-width:100%;
+height:60px;
+background:#222 ;
+border-bottom: 1px solid #333;
+box-shadow: inset 0px -2px 6px 1px #000;
+}
+.logo{
+max-width:400px;
+height:60px;
+margin:0 auto;
+}
+.container{
+    max-width: 80%;
+    height: 610px;
+    padding: 1%;
+    margin: 1% auto;
+    border: 1px solid rgba(107,200,235,0.1);
+    border-radius: 8px;
+    background: rgba(107,200,235,0.5);
+
+}
+.well{
+max-width: 100%;
+}
+.well-large{
+
+}
+.well-right{
+max-width:45%;
+height:400px;
+float:left;
+padding:10px;
+overflow:auto;
+}
+progress.withText
+{
+    color: inherit; /* Uses the same text color as the page */
+    vertical-align: text-bottom; /* Makes the bottom of the control align with the bottom of its label */
+}
+
+/* Text style for a label for the progress ring */
+.progressRingText
+{
+    font-family: "Segoe UI";
+}
+
+/* Text style for a label for a default size progress ring */
+.progressRingText
+{
+    font-size: 11pt;
+    line-height: 15pt;
+}
+
+/* The margin to separate the ring and its label */
+.progressRingText progress
+{
+    margin-right: 10px;
+}
+.footer{
+    max-width: 80%;
+    height: 60px;
+    padding: 1%;
+    margin: 5% auto;
+    border: 1px solid rgba(107,200,235,0.1);
+    border-radius: 8px;
+    background: rgba(107,200,235,0.5);
+
+}
+#ad-block{
+width:310px;
+height:260px;
+background:none rgba(250,250,250,0.8);
+border:1px solid #888888;
+padding:5px;
+position:fixed;
+right:0;
+bottom:0;
+}
+#ad-block img:hover{
+cursor: pointer;
+}
+
+@media only screen and (max-width:960px) {
+  /* For mobile phones: */
+  .container, .well-right, .well {
+    width:100%;
+  }
+}
